@@ -1,1 +1,51 @@
 /* mycss.css */
+
+html{
+  background-image: url('grey.png');
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font-family: Verdana, Arial;
+}
+
+body > #container{
+  height: auto;
+}
+
+#container{
+  min-height: 100%;
+  width: 600px;
+  margin: 0 auto;
+  padding:  0 10px;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#header{
+  margin-bottom: 15px;
+}
+
+#menu{
+  margin-bottom: 15px;
+}
+
+#main{
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#contents{
+  float: left;
+  width: 400px;
+}
+
+#sidebar{
+  float: right;
+  width: 180px;
+}
+
+
+#footer{
+}
